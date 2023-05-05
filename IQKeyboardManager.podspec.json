@@ -1,0 +1,31 @@
+{
+  "name": "IQKeyboardManager",
+  "version": "6.5.10",
+  "source": {
+    "git": "https://github.com/hackiftekhar/IQKeyboardManager.git",
+    "tag": "v6.5.10"
+  },
+  "summary": "Codeless drop-in universal library allows to prevent issues of keyboard sliding up and cover UITextField/UITextView.",
+  "homepage": "https://github.com/hackiftekhar/IQKeyboardManager",
+  "screenshots": "https://raw.githubusercontent.com/hackiftekhar/IQKeyboardManager/master/Screenshot/IQKeyboardManagerScreenshot.png",
+  "license": "MIT",
+  "authors": {
+    "Iftekhar Qurashi": "hack.iftekhar@gmail.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreGraphics",
+    "QuartzCore"
+  ],
+  "requires_arc": true,
+  "static_framework": true,
+  "vendored_frameworks": "IQKeyboardManager.xcframework",
+  "ios": {
+    "public_header_files": "IQKeyboardManager.xcframework/ios-arm64/*/Headers/*.h",
+    "source_files": "IQKeyboardManager.xcframework/ios-arm64/*/Headers/*.h"
+  }
+}
